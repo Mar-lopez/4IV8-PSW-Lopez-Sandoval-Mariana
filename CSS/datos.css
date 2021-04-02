@@ -1,0 +1,248 @@
+*{
+    padding:0;
+    margin:0;
+    color:#000000;
+    
+}
+
+html, body{
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+
+.main-curriculo{
+    border:10px solid #071E22;
+    border-radius: 0px;
+    margin: 0rem ;
+    background-color: #071E22;
+    text-align: right;
+}
+#agrupar {
+    background-color: #F7D3B5; 
+    padding: 1rem; 
+    text-align: center;
+    
+
+}
+
+#menu { 
+    background-color: #F7D3B5; 
+    padding: 2rem; 
+    text-align: center;
+} 
+#menu li { 
+    display: inline-block; 
+    list-style: none; 
+    padding: 5px; 
+    font: bold 14px verdana, sans-serif; 
+    
+}
+
+.main-datos{
+    border: 0px solid #ABC4BE;
+    margin: 0rem;
+    border-radius: 0px;
+     /*este sirve para 
+     hacer el margen circular  */ 
+    padding: 5rem;
+    /*hacia abajo*/
+    width: 78.9rem;
+    /*ancho*/
+    height: 0rem;
+   /*largo*/
+    background-color: #ABC4BE; 
+    height: auto;
+    display: grid; 
+    text-align: center;
+    
+    
+}
+
+img{
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    margin: 1rem;
+    border-radius: 50%;
+    height: 0px;
+    bottom: -10px;
+    /*posision */
+    width: 20rem;
+    /*tamaño */
+    height: auto;
+    display: block;
+}
+
+.main-datos article, aside{
+
+    padding: 10px;
+    margin-bottom: 10px ;
+    width: 40%; 
+    /*ancho*/
+    border-radius: 10px ;
+     /*este sirve para 
+     hacer el margen circular  */ 
+    height: 10px;
+    text-align: center;
+    display: inline-flex;
+    height: 20px;
+    /*alto*/
+   
+    margin: 0rem ;
+    background-color:  #155966;
+}
+.main-escolaridad{
+    border: 0px solid ;
+    margin: 0rem;
+    border-radius: 0px;
+    padding: 0rem;
+    background-color: #F9B4B5; 
+    height: auto;
+    display: block; 
+    text-align: center;
+}
+.main-escolaridad article, aside{
+    border: 4px solid #F68E91;
+    padding: 10px;
+    margin-bottom: 15px;
+    width:45%;
+    border-radius: 8px;
+    height: 20px;
+    background-color: #FCD9DA;
+    text-align: center;
+    display: inline-table;
+}
+
+.main-anuncio{
+    background-color: #FFFFFF;
+}
+
+.main-anuncio img{
+    position: relative;
+    margin: 2rem;
+    /*marguen*/
+    border-radius: 0%;
+    /*este es para hacer
+     un margen circular*/
+    width: 85rem;
+     /*ancho*/
+    height: 20rem;
+    /*largo*/
+    bottom: 1rem;
+    /*hacia abajo*/
+}
+
+.main-galeria article {
+    border: 5px solid #104240;
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 0%;
+    border-radius: 0px;
+    height: 20px;
+    background-color: #FFFFFF;
+    display: inline-table;
+
+}
+.main-galeria{
+    background-color: #ABC4BE; 
+}
+.main-galeria img{ 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    margin: 3rem;
+    /*marguen*/
+    border-radius: 0%;
+    /*este es para hacer
+     un margen circular*/
+    width: 20rem;
+     /*ancho*/
+    height: 25rem;
+    /*largo*/
+    bottom: 15rem;
+    /*hacia abajo*/
+
+   
+}
+
+.main-Hobbies{
+    border: 0px solid #F7D3B5;
+    margin: 0rem;
+    border-radius: 0px;
+    padding: 0rem;
+    background-color: #F7D3B5; 
+    height: auto;
+    display: block; 
+    text-align: center;
+}
+
+.main-Hobbies article {
+   
+    padding: 20px;
+    margin-bottom: 15px;
+    width:30%;
+    display: inline-table;
+    border-radius: 8px;
+    height: 200px;
+}
+.main-imagen{
+    
+        border: 0px solid #ffe8d6;
+        margin: 0rem;
+        border-radius: 0px;
+        padding: 0rem;
+        background-color: #ffe8d6; 
+        height: auto;
+        display: block; 
+        text-align: center;
+
+    
+}
+.main-imagen article, aside{
+    border: 3px solid #DD836E;
+    padding: 10px;
+    margin-bottom: 15px;
+    width:40%;
+    border-radius: 8px;
+    height: 20px;
+    background-color: #ECBBAF;
+    text-align: center;
+}
+
+.main-imagen img{
+    position: relative;
+    margin: 1%;
+    border-radius: 50%;
+    height: 65px;
+    bottom: 50px;
+}
+.main-imagen img{
+    width: 25%;
+    height: auto;
+    display: block;
+}
+.main-extra{
+    border: 0px solid #ffffff;
+    margin: 0rem;
+    border-radius: 0px;
+    padding: 0rem;
+    background-color: #ECBBAF; 
+    height: auto;
+    display: block; 
+    text-align: center;
+}
+
+.pies{
+    
+    border: 0px solid #ffff;
+    margin: 0rem;
+    border-radius: 0px;
+    padding: 0rem;
+    background-color: #071E22; 
+    height: auto;
+    display: block; 
+    text-align: center;
+
+}

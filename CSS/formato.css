@@ -24,38 +24,28 @@ html, body{
     text-align: center;
     
 
-
 }
-#menu { 
+
+#menup { 
     background-color: #fff3eb; 
     padding: 2rem; 
     text-align: center;
 } 
-#menu li { 
+#menup li { 
     display: inline-block; 
     list-style: none; 
     padding: 5px; 
     font: bold 14px verdana, sans-serif; 
     
 }
-#problemas { 
-    background-color: #2e5856; 
-    padding: 2rem; 
-    text-align: center;
-} 
-#problemas li { 
-    display: table-cell; 
-    list-style: none; 
-    padding: 5px; 
-    font: bold 14px verdana, sans-serif; 
-    
-}
+
 .actividades{
-    border: 5px solid #2e5856;
+    border: 0px solid #2e5856;
     margin: 0rem;
     border-radius: 0px;
-    padding: 3rem;
+    padding: 0rem;
     background-color: #2e5856; 
+    
 }
 
 
